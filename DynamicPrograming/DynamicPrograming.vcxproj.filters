@@ -15,24 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="back_tracking.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="max_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lcs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dp.h">
+    <ClInclude Include="max_sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="back_tracking.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="lcs.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

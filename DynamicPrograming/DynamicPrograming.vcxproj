@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f9a3fb13-f465-4ef5-a7f6-c352ad52ea8b}</ProjectGuid>
-    <RootNamespace>Backpack</RootNamespace>
+    <ProjectGuid>{6f5a8b63-2dde-4fd0-aba2-3baf63696aca}</ProjectGuid>
+    <RootNamespace>DynamicPrograming</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,17 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="back_tracking.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="dp.cpp" />
+    <ClCompile Include="lcs.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="max_sum.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="back_tracking.h" />
-    <ClInclude Include="dp.h" />
-    <ClInclude Include="utils.h" />
+    <ClInclude Include="lcs.h" />
+    <ClInclude Include="max_sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
